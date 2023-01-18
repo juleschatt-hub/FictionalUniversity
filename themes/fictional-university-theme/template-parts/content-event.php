@@ -16,6 +16,3 @@
   </div>
 </div>
 
-<div>
-  <p>TEST TEST TEST</p>
-</div>
