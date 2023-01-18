@@ -1,5 +1,4 @@
 import $ from 'jquery';
-test
 
 class Search {
     //1. describe and create/initiate our object
