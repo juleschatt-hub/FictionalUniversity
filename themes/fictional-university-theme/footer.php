@@ -47,7 +47,6 @@
           </nav>
         </div>
       </div>
-test test test
     </div>
   </footer>
 <?php wp_footer(); ?>
