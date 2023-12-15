@@ -112,6 +112,6 @@ function universityMapKey($api) {
   $api['key'] = 'AIzaSyAfRJzDL8KCpLPCCfPSzdfrqaKBcBXm6eA';
   return $api;
 }
-add_filter('acf/fields/google_map/api', 'universityMapKey');
+add_filter('acf/fields/google_map/api', 'universityMpKey');
 
 // test2345
