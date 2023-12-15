@@ -17,6 +17,10 @@
     "@glidejs/glide": "^3.4.1",
     "@wordpress/scripts": "*",
     "axios": "^0.21.1",
+<<<<<<< HEAD
+=======
+    "git": "^0.1.5",
+>>>>>>> 9105abd6939313186eb77d30b171704eacc7fb29
     "normalize.css": "^8.0.1"
   }
 }

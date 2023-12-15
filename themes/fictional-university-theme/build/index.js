@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /******/ (() => { // webpackBootstrap
+=======
+/******/ (function() { // webpackBootstrap
+>>>>>>> 9105abd6939313186eb77d30b171704eacc7fb29
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
@@ -6,7 +10,11 @@
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
+<<<<<<< HEAD
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+=======
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+>>>>>>> 9105abd6939313186eb77d30b171704eacc7fb29
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _css_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../css/style.scss */ "./css/style.scss");
@@ -34,12 +42,18 @@ const search = new _modules_Search__WEBPACK_IMPORTED_MODULE_4__["default"]();
 /*!**********************************!*\
   !*** ./src/modules/GoogleMap.js ***!
   \**********************************/
+<<<<<<< HEAD
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+=======
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+__webpack_require__.r(__webpack_exports__);
+>>>>>>> 9105abd6939313186eb77d30b171704eacc7fb29
 class GMap {
   constructor() {
     document.querySelectorAll(".acf-map").forEach(el => {
@@ -108,7 +122,12 @@ class GMap {
     }
   } // end center_map
 }
+<<<<<<< HEAD
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (GMap);
+=======
+
+/* harmony default export */ __webpack_exports__["default"] = (GMap);
+>>>>>>> 9105abd6939313186eb77d30b171704eacc7fb29
 
 /***/ }),
 
@@ -116,12 +135,18 @@ class GMap {
 /*!***********************************!*\
   !*** ./src/modules/HeroSlider.js ***!
   \***********************************/
+<<<<<<< HEAD
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+=======
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+__webpack_require__.r(__webpack_exports__);
+>>>>>>> 9105abd6939313186eb77d30b171704eacc7fb29
 /* harmony import */ var _glidejs_glide__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @glidejs/glide */ "./node_modules/@glidejs/glide/dist/glide.esm.js");
 
 class HeroSlider {
@@ -149,7 +174,11 @@ class HeroSlider {
     }
   }
 }
+<<<<<<< HEAD
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (HeroSlider);
+=======
+/* harmony default export */ __webpack_exports__["default"] = (HeroSlider);
+>>>>>>> 9105abd6939313186eb77d30b171704eacc7fb29
 
 /***/ }),
 
@@ -157,12 +186,18 @@ class HeroSlider {
 /*!***********************************!*\
   !*** ./src/modules/MobileMenu.js ***!
   \***********************************/
+<<<<<<< HEAD
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+=======
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+__webpack_require__.r(__webpack_exports__);
+>>>>>>> 9105abd6939313186eb77d30b171704eacc7fb29
 class MobileMenu {
   constructor() {
     this.menu = document.querySelector(".site-header__menu");
@@ -178,7 +213,11 @@ class MobileMenu {
     this.menu.classList.toggle("site-header__menu--active");
   }
 }
+<<<<<<< HEAD
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MobileMenu);
+=======
+/* harmony default export */ __webpack_exports__["default"] = (MobileMenu);
+>>>>>>> 9105abd6939313186eb77d30b171704eacc7fb29
 
 /***/ }),
 
@@ -186,12 +225,18 @@ class MobileMenu {
 /*!*******************************!*\
   !*** ./src/modules/Search.js ***!
   \*******************************/
+<<<<<<< HEAD
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+=======
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+__webpack_require__.r(__webpack_exports__);
+>>>>>>> 9105abd6939313186eb77d30b171704eacc7fb29
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ "jquery");
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);
 
@@ -291,7 +336,11 @@ class Search {
         `);
   }
 }
+<<<<<<< HEAD
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Search);
+=======
+/* harmony default export */ __webpack_exports__["default"] = (Search);
+>>>>>>> 9105abd6939313186eb77d30b171704eacc7fb29
 
 /***/ }),
 
@@ -299,7 +348,11 @@ class Search {
 /*!************************!*\
   !*** ./css/style.scss ***!
   \************************/
+<<<<<<< HEAD
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+=======
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+>>>>>>> 9105abd6939313186eb77d30b171704eacc7fb29
 
 __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
@@ -311,7 +364,11 @@ __webpack_require__.r(__webpack_exports__);
 /*!*************************!*\
   !*** external "jQuery" ***!
   \*************************/
+<<<<<<< HEAD
 /***/ ((module) => {
+=======
+/***/ (function(module) {
+>>>>>>> 9105abd6939313186eb77d30b171704eacc7fb29
 
 module.exports = window["jQuery"];
 
@@ -321,11 +378,19 @@ module.exports = window["jQuery"];
 /*!*******************************************************!*\
   !*** ./node_modules/@glidejs/glide/dist/glide.esm.js ***!
   \*******************************************************/
+<<<<<<< HEAD
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ Glide)
+=======
+/***/ (function(__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": function() { return /* binding */ Glide; }
+>>>>>>> 9105abd6939313186eb77d30b171704eacc7fb29
 /* harmony export */ });
 /*!
  * Glide.js v3.6.0
@@ -4238,9 +4303,15 @@ var Glide = /*#__PURE__*/function (_Core) {
 /******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/chunk loaded */
+<<<<<<< HEAD
 /******/ 	(() => {
 /******/ 		var deferred = [];
 /******/ 		__webpack_require__.O = (result, chunkIds, fn, priority) => {
+=======
+/******/ 	!function() {
+/******/ 		var deferred = [];
+/******/ 		__webpack_require__.O = function(result, chunkIds, fn, priority) {
+>>>>>>> 9105abd6939313186eb77d30b171704eacc7fb29
 /******/ 			if(chunkIds) {
 /******/ 				priority = priority || 0;
 /******/ 				for(var i = deferred.length; i > 0 && deferred[i - 1][2] > priority; i--) deferred[i] = deferred[i - 1];
@@ -4249,10 +4320,19 @@ var Glide = /*#__PURE__*/function (_Core) {
 /******/ 			}
 /******/ 			var notFulfilled = Infinity;
 /******/ 			for (var i = 0; i < deferred.length; i++) {
+<<<<<<< HEAD
 /******/ 				var [chunkIds, fn, priority] = deferred[i];
 /******/ 				var fulfilled = true;
 /******/ 				for (var j = 0; j < chunkIds.length; j++) {
 /******/ 					if ((priority & 1 === 0 || notFulfilled >= priority) && Object.keys(__webpack_require__.O).every((key) => (__webpack_require__.O[key](chunkIds[j])))) {
+=======
+/******/ 				var chunkIds = deferred[i][0];
+/******/ 				var fn = deferred[i][1];
+/******/ 				var priority = deferred[i][2];
+/******/ 				var fulfilled = true;
+/******/ 				for (var j = 0; j < chunkIds.length; j++) {
+/******/ 					if ((priority & 1 === 0 || notFulfilled >= priority) && Object.keys(__webpack_require__.O).every(function(key) { return __webpack_require__.O[key](chunkIds[j]); })) {
+>>>>>>> 9105abd6939313186eb77d30b171704eacc7fb29
 /******/ 						chunkIds.splice(j--, 1);
 /******/ 					} else {
 /******/ 						fulfilled = false;
@@ -4267,6 +4347,7 @@ var Glide = /*#__PURE__*/function (_Core) {
 /******/ 			}
 /******/ 			return result;
 /******/ 		};
+<<<<<<< HEAD
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/compat get default export */
@@ -4285,12 +4366,33 @@ var Glide = /*#__PURE__*/function (_Core) {
 /******/ 	(() => {
 /******/ 		// define getter functions for harmony exports
 /******/ 		__webpack_require__.d = (exports, definition) => {
+=======
+/******/ 	}();
+/******/ 	
+/******/ 	/* webpack/runtime/compat get default export */
+/******/ 	!function() {
+/******/ 		// getDefaultExport function for compatibility with non-harmony modules
+/******/ 		__webpack_require__.n = function(module) {
+/******/ 			var getter = module && module.__esModule ?
+/******/ 				function() { return module['default']; } :
+/******/ 				function() { return module; };
+/******/ 			__webpack_require__.d(getter, { a: getter });
+/******/ 			return getter;
+/******/ 		};
+/******/ 	}();
+/******/ 	
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	!function() {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__webpack_require__.d = function(exports, definition) {
+>>>>>>> 9105abd6939313186eb77d30b171704eacc7fb29
 /******/ 			for(var key in definition) {
 /******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
 /******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
 /******/ 				}
 /******/ 			}
 /******/ 		};
+<<<<<<< HEAD
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
@@ -4302,15 +4404,35 @@ var Glide = /*#__PURE__*/function (_Core) {
 /******/ 	(() => {
 /******/ 		// define __esModule on exports
 /******/ 		__webpack_require__.r = (exports) => {
+=======
+/******/ 	}();
+/******/ 	
+/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
+/******/ 	!function() {
+/******/ 		__webpack_require__.o = function(obj, prop) { return Object.prototype.hasOwnProperty.call(obj, prop); }
+/******/ 	}();
+/******/ 	
+/******/ 	/* webpack/runtime/make namespace object */
+/******/ 	!function() {
+/******/ 		// define __esModule on exports
+/******/ 		__webpack_require__.r = function(exports) {
+>>>>>>> 9105abd6939313186eb77d30b171704eacc7fb29
 /******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
 /******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+<<<<<<< HEAD
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */
 /******/ 	(() => {
+=======
+/******/ 	}();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	!function() {
+>>>>>>> 9105abd6939313186eb77d30b171704eacc7fb29
 /******/ 		// no baseURI
 /******/ 		
 /******/ 		// object to store loaded and loading chunks
@@ -4331,6 +4453,7 @@ var Glide = /*#__PURE__*/function (_Core) {
 /******/ 		
 /******/ 		// no HMR manifest
 /******/ 		
+<<<<<<< HEAD
 /******/ 		__webpack_require__.O.j = (chunkId) => (installedChunks[chunkId] === 0);
 /******/ 		
 /******/ 		// install a JSONP callback for chunk loading
@@ -4340,6 +4463,19 @@ var Glide = /*#__PURE__*/function (_Core) {
 /******/ 			// then flag all "chunkIds" as loaded and fire callback
 /******/ 			var moduleId, chunkId, i = 0;
 /******/ 			if(chunkIds.some((id) => (installedChunks[id] !== 0))) {
+=======
+/******/ 		__webpack_require__.O.j = function(chunkId) { return installedChunks[chunkId] === 0; };
+/******/ 		
+/******/ 		// install a JSONP callback for chunk loading
+/******/ 		var webpackJsonpCallback = function(parentChunkLoadingFunction, data) {
+/******/ 			var chunkIds = data[0];
+/******/ 			var moreModules = data[1];
+/******/ 			var runtime = data[2];
+/******/ 			// add "moreModules" to the modules object,
+/******/ 			// then flag all "chunkIds" as loaded and fire callback
+/******/ 			var moduleId, chunkId, i = 0;
+/******/ 			if(chunkIds.some(function(id) { return installedChunks[id] !== 0; })) {
+>>>>>>> 9105abd6939313186eb77d30b171704eacc7fb29
 /******/ 				for(moduleId in moreModules) {
 /******/ 					if(__webpack_require__.o(moreModules, moduleId)) {
 /******/ 						__webpack_require__.m[moduleId] = moreModules[moduleId];
@@ -4358,17 +4494,28 @@ var Glide = /*#__PURE__*/function (_Core) {
 /******/ 			return __webpack_require__.O(result);
 /******/ 		}
 /******/ 		
+<<<<<<< HEAD
 /******/ 		var chunkLoadingGlobal = globalThis["webpackChunkfictional_university_theme"] = globalThis["webpackChunkfictional_university_theme"] || [];
 /******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 	})();
+=======
+/******/ 		var chunkLoadingGlobal = self["webpackChunkfictional_university_theme"] = self["webpackChunkfictional_university_theme"] || [];
+/******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
+/******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
+/******/ 	}();
+>>>>>>> 9105abd6939313186eb77d30b171704eacc7fb29
 /******/ 	
 /************************************************************************/
 /******/ 	
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
+<<<<<<< HEAD
 /******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["./style-index"], () => (__webpack_require__("./src/index.js")))
+=======
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["./style-index"], function() { return __webpack_require__("./src/index.js"); })
+>>>>>>> 9105abd6939313186eb77d30b171704eacc7fb29
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
